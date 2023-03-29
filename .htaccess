@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^home$ index.php
+RewriteRule ^cart$ index.php?controller=cart
+RewriteRule ^news$ index.php?controller=news
+RewriteRule ^contact$ index.php?controller=contact
+
